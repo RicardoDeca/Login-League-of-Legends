@@ -119,11 +119,12 @@ button:hover{
 
 .mainImg img{
     width:100%;
-    
+
 }
 
 .mainImg{
     display: flex;
+
 }
 
 .checkbox{
@@ -181,4 +182,21 @@ button:hover{
 
 .btnHidden p{
     margin-top:6px ;
+}
+
+@media (max-width:800px){
+    .mainImg{
+        display: none;
+    }
+
+    main{
+        justify-content: center;
+    }
+
+    .loginSection{
+        border: solid;
+        width: 50%;
+        min-width: 400px;
+
+    }
 }
