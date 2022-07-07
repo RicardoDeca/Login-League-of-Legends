@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    text-decoration: none;
+}
+
+
+button img{
+    height: 50px;
+}
+
+h2{
+    width: 200px;
+    height: 70px;
+    font-size: 1rem;
+    align-items:flex-end;
+    justify-content: center;
+    display: flex;
+}
+
+.logo{
+    width: 200px;
+    height: 70px;
+}
+
+.logoFig{
+    display: flex;
+    height: 120px;
+    align-items: flex-end;
+}
+
+main{
+    display: flex;
+}
+
+.loginSection{
+    width:40%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:flex-start;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    height:70%;
+    font-size:1.2rem;
+    background: rgba(232, 230, 230, 1);
+    border:none;
+    outline: 0;
+}
+
+form label{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width:90%;
+    height:40%;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding-left:20px ;
+    background: rgba(232, 230, 230, 1);
+}
+
+.btn{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoFB{
+    background: rgba(32, 81, 255, 1);
+}
+
+.logoGoogle{
+    background: rgba(138, 0, 0, 1);
+
+}
+
+.logoApple{
+    background: rgba(0, 0, 0, 1);
+
+}
+
+main button{
+    width: 125px;
+}
+
+main button img{
+    width:29px;
+    height:29px;
+}
+
+.btn button{
+    border:none;
+    border-radius: 5px;
+    width:110px;
+    height:40px;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+
+.mainImg img{
+    width:100%;
+    
+}
+
+.mainImg{
+    display: flex;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+
+.checkboxText{
+    width:100%;
+    height: 100%;
+    text-align:left;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.stilLogin{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.btnHidden{
+    height:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnOFF{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255, 0, 46, 0.21);
+
+}
+
+.btnON{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255, 0, 46, 1);
+
+}
+
+.btnHidden a{
+    color: black;
+}
+
+.btnHidden p{
+    margin-top:6px ;
+}
